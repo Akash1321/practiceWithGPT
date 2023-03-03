@@ -29,7 +29,7 @@ function removeDuplicates1(arr) { // this one is suggested by chat gpt where we 
 }
 
 const removeDuplicates2 = arr => { // this method is similar to the one that uses includes but here instead of includes we use index of the item in the new array and if it is -1 i.e not present than we push it there else don't do anything
-    
+
     const newArr = [];
     for(let i = 0; i < arr.length; i++){
         if(newArr.indexOf(arr[i]) === -1){
@@ -44,8 +44,6 @@ const removeDuplicates2 = arr => { // this method is similar to the one that use
 console.log(removeDuplicates(input));
 console.log(removeDuplicates1(input));
 console.log(removeDuplicates2(input));
-
-
 
 
   
